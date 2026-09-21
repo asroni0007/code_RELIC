@@ -1,0 +1,10 @@
+
+-- Curve BN-P256:
+=== RELIC real-library benchmark (independent cross-check) ===
+Pairing-friendly curve auto-selected by pc_param_set_any()
+Symbol   Algorithm                                    time (ms)
+--------------------------------------------------------------
+T_bpo    Bilinear pairing operation                       1.0764
+T_pbsm   Pairing-based scalar multiplication (G1)         0.1285
+T_pbpa   Pairing-based point addition (G1)                0.0005
+--------------------------------------------------------------
